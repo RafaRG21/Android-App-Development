@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Moviles2Clase02BD</string>
+    <string name="titulo">Gestión de empleados</string>
+    <string name="numEmp">Escribe Número</string>
+    <string name="nombre">Escribe Nombre</string>
+    <string name="apellidos">Escribe Apellidos</string>
+    <string name="sueldo">Ingresa Sueldo</string>
+    <string name="agregar">Agregar</string>
+    <string name="buscar">Buscar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="lista">Lista</string>
+    <string name="detalle">Listado de empleados</string>
+    <string name="regreso">Regresar</string>
+</resources>

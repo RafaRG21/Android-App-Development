@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RangerHub </string>
+    <string name="parks">Parques</string>
+    <string name="parkList">Listado de Parques</string>
+    <string name="ranger">Guardabosques</string>
+    <string name="rangerList">Listado de Guardabosques </string>
+    <string name="signout">Cerrar sesión</string>
+    <string name="user">Ingresar usuario</string>
+    <string name="passwd">Ingresar contraseña</string>
+    <string name="saveData">Guardar credenciales</string>
+    <string name="signin">Ingresar</string>
+    <string name="close">Salir</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="code">Ingresar código</string>
+    <string name="name">Ingresar nombre</string>
+    <string name="lastname">Ingresar apellido</string>
+    <string name="location">Ciudad</string>
+    <string name="capacity">Ingresar capacidad</string>
+    <string name="type">Tipo de parque</string>
+    <string name="listPark">Lista de Parques</string>
+    <string name="listRanger">Lista de guardabosques</string>
+    <string name="back">Regresar</string>
+    <string name="shift">Turno</string>
+    <string name="salary">Ingresar salario</string>
+</resources>

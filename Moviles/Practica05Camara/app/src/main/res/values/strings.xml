@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Practica05Camara</string>
+    <string name="titulomain">Gestión de cámara</string>
+    <string name="menu1">Lector Barras/QR</string>
+    <string name="menu2">Tomar foto</string>
+    <!-- Menu 1 -->
+    <string name="titulolector">Lector de Barra y QR</string>
+    <string name="escanear">Escanear</string>
+    <string name="guardar">Guardar</string>
+    <string name="lista">Ver Lista</string>
+    <string name="codigo">Código leído</string>
+    <string name="descripcion">Captura descripción</string>
+    <!-- Menu 2 -->
+    <string name="titulofotografia">Tomar fotografía</string>
+    <string name="foto">Tomar fotografía</string>
+</resources>

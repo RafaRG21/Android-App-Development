@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itmParks"
+        android:title="@string/parks" />
+    <item
+        android:id="@+id/itmParkLst"
+        android:title="@string/parkList" />
+    <item
+        android:id="@+id/itmRanger"
+        android:title="@string/ranger" />
+    <item
+        android:id="@+id/itmRangerLst"
+        android:title="@string/rangerList" />
+    <item
+        android:id="@+id/itmSignOut"
+        android:title="@string/signout" />
+</menu>

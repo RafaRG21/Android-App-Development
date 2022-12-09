@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParksActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvwParkTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/bangers"
+                android:text="@string/parks"
+                android:textAlignment="center"
+                android:textSize="48sp" />
+
+            <ImageView
+                android:id="@+id/imgParkIcon"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/park_icon"
+                tools:srcCompat="@drawable/park_icon" />
+
+            <EditText
+                android:id="@+id/edtParkCode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/code"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColorHint="#757575" />
+
+            <EditText
+                android:id="@+id/edtParkName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#757575" />
+
+            <TextView
+                android:id="@+id/tvwParkLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/location"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spnParkLocation"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <EditText
+                android:id="@+id/edtParkCapacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/capacity"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColorHint="#757575" />
+
+            <TextView
+                android:id="@+id/tvwParkType"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="@string/type"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spnParkType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnParkAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="parkRegister"
+                    app:srcCompat="@android:drawable/ic_input_add" />
+
+                <ImageButton
+                    android:id="@+id/btnParkSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="parkSearch"
+                    app:srcCompat="@android:drawable/ic_menu_search"
+                    app:tint="@color/black" />
+
+                <ImageButton
+                    android:id="@+id/btnParkUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="parkUpdate"
+                    app:srcCompat="@android:drawable/ic_popup_sync"
+                    app:tint="@color/black" />
+
+                <ImageButton
+                    android:id="@+id/btnParkDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="parkDelete"
+                    app:srcCompat="@android:drawable/ic_delete" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practica01_RUIZ_GUDINO_JOSE_RAFAEL</string>
+    <string name="title1">Sistema de calificaciones</string>
+    <string name="grades01">Calificación del primer parcial</string>
+    <string name="grades02">Calificación del segundo parcial</string>
+    <string name="grades03">Calificaciónn del tercer parcial</string>
+
+</resources>

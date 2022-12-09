@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/tvwTitleInfo"
+        android:layout_width="366dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="115dp"
+        android:text="@string/TitleInfo"
+        android:textColor="#DFCFFB"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvwContentInfo"
+        android:layout_width="323dp"
+        android:layout_height="383dp"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="175dp"
+        android:text="@string/InfoActivity"
+        android:textColor="#B5BDE8"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvwTitleInfo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

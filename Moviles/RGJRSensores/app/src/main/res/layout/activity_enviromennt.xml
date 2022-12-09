@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".EnviromenntActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/btnEnvironmentLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/luz" />
+
+        <Button
+            android:id="@+id/btnEnviromentTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/temperatura" />
+
+        <Button
+            android:id="@+id/btnEnviromentOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/brujula" />
+
+        <Button
+            android:id="@+id/btnEnvironmentGravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gravedad" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

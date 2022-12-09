@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Solicitud de tarjeta</string>
+    <string name="dato_curp">Ingresar CURP</string>
+    <string name="dato_nombre">Ingresar Nombre</string>
+    <string name="dato_apellido">Ingresar Apellidos</string>
+    <string name="dato_domicilio">Ingresar Domicilio</string>
+    <string name="dato_cantidad">Cantididad de ingreso</string>
+    <string name="dato_tarjeta">Tipo de tarjeta</string>
+    <string name="registrar">Registrar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="cita">Cita con Ejecutivo</string>
+    <string name="fecha_cita">Fecha de la cita</string>
+    <string name="hora_cita">Hora de la cita</string>
+    <string name="agendar_cita">Agendar Cita</string>
+    <string name="Beneficios">Beneficios de la tarjeta</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtScore3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:hint="@string/grades03"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtScore2" />
+
+    <TextView
+        android:id="@+id/tvwTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/abeezee"
+        android:text="@string/title1"
+        android:textColor="#050B30"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtScore2"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="66dp"
+        android:ems="10"
+        android:hint="@string/grades02"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtScore1" />
+
+    <EditText
+        android:id="@+id/txtScore1"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="66dp"
+        android:ems="10"
+        android:hint="@string/grades01"
+        android:inputType="numberDecimal"
+        android:textColor="#020930"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvwTitle" />
+
+    <Button
+        android:id="@+id/btnAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="107dp"
+        android:onClick="averageGenerator"
+        android:text="@string/calcAverage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnWeighting" />
+
+    <Spinner
+        android:id="@+id/spnWeighting"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvwWeightning" />
+
+    <TextView
+        android:id="@+id/tvwWeightning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="149dp"
+        android:text="@string/weighting"
+        android:textColor="#C9BFDC"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtScore3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

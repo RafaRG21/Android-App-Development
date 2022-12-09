@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sensores</string>
+    <!--Opcion lista de sensores -->
+    <string name="lista">Lista de sensores</string>
+    <!--Opcion proximidad -->
+    <string name="proximidad">Sensor de proximidad</string>
+    <!--Opcion temperatura -->
+    <string name="ambiente">Sensor de ambiente</string>
+    <string name="luz">Sensor de luz</string>
+    <string name="temperatura">Sensor de temperatura</string>
+    <string name="reset">Reiniciar</string>
+    <string name="gravedad">Gravedad</string>
+    <string name="brujula">Brújula</string>
+    <string name="AxisX">Axis X: </string>
+    <string name="AxisY">Axis Y: </string>
+    <string name="AxisZ">Axis Z: </string>
+
+</resources>

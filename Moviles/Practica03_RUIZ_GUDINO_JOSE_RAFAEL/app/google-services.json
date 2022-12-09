@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "291608823344",
+    "firebase_url": "https://practica03rgjr-default-rtdb.firebaseio.com",
+    "project_id": "practica03rgjr",
+    "storage_bucket": "practica03rgjr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291608823344:android:4826ed450da6c9b3e9cff5",
+        "android_client_info": {
+          "package_name": "com.example.practica03_ruiz_gudino_jose_rafael"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291608823344-h7gdg88v4gmh29vp83qmo54fmc9m2ulc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv7LBpl7tnn-iLQntJwXy_GDj_KoPU7DI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291608823344-h7gdg88v4gmh29vp83qmo54fmc9m2ulc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

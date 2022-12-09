@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Practica03RuizGudinoJoseRafael</string>
+    <!--Activity Main -->
+    <string name="title1">Sistema de calificaciones</string>
+    <string name="grades01">Calificación del primer parcial</string>
+    <string name="grades02">Calificación del segundo parcial</string>
+    <string name="grades03">Calificaciónn del tercer parcial</string>
+    <string name="weighting">Ponderación</string>
+    <string name="calcAverage">Calcular Promedio</string>
+    <!-- Info Activity-->
+    <string name="TitleInfo">Ponderación de los Parciales</string>
+    <string name="InfoActivity">Tipo A: Primer parcial 20%, segundo parcial 35% y tercer parcial 45%.\n Tipo B: Primer parcial 15%, segundo parcial 35% y tercer parcial 50%.\nTipo C: Primer parcial 33%, segundo parcial 33% y tercer parcial 34%.\n</string>
+    <!-- Formulario Activity-->
+    <string name="titleForm">Agendar Extraordinario</string>
+    <string name="nameForm">Ingresar Nombre</string>
+    <string name="timeForm">Hora del examen</string>
+    <string name="dateForm">Fecha del examen</string>
+    <string name="materiaForm">Ingresar Materia</string>
+    <string name="agendar">Agendar</string>
+</resources>
