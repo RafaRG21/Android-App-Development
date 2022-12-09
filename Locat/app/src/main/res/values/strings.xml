@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App Mapas</string>
+    <string name="title_activity_sesion11">Map</string>
+    <string name="tipos">Tipos de Mapa</string>
+    <string name="estandar">Estandar</string>
+    <string name="satelite">Satelite</string>
+    <string name="hibrida">Hibrida</string>
+    <string name="poli">Polilinea</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+</resources>
